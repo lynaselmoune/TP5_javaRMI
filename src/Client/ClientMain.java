@@ -34,10 +34,6 @@ public class ClientMain {
                     System.out.println("Result of remote method invocation multiplication : " + calc.multiplication(a,b));
                     break;
             }
-
-//            System.out.println("Result of remote method invocation subtraction: " + calc.subtraction(2,1));
-//            System.out.println("Result of remote method invocation division : " + calc.division(4,2));
-//            System.out.println("Result of remote method invocation multiplication : " + calc.multiplication(3,2));
         } catch(Exception e){
             e.printStackTrace();
         }
